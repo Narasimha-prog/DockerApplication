@@ -11,7 +11,7 @@
 	<groupId>com.ln</groupId>
 	<artifactId>DockerSpringBootApp01</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>DockerSpringBootApp01</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -31,26 +31,17 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>-->
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
 
-		<!--<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.ln</groupId>
-			<artifactId>SpringBootKafkaProvider_01</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+	
 	</dependencies>
 
 	<build>
